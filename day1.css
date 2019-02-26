@@ -1,0 +1,24 @@
+figure {
+    background-color: white;
+    border-radius: .4%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+#main {
+    background-color: #EEEEEE;
+}
+
+#image {}
+
+#img-caption {
+    border-radius: .4%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+#img-footer-text {
+    text-align: left;
+}

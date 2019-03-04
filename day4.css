@@ -1,12 +1,35 @@
-body {
-    background-color: #FFFFFF;
-}
-
-a {
-    color: black;
-    text-decoration-line: none;
-}
-
-code {
-    background-color: #f7f7f7;
-}
+        body {
+            background-color: #FFFFFF;
+        }
+        
+        a {
+            color: black;
+            text-decoration-line: none;
+        }
+        
+        code {
+            display: block;
+            text-align: left;
+            white-space: pre;
+            position: relative;
+            word-break: normal;
+            word-wrap: normal;
+            line-height: 2;
+            background-color: #f7f7f7;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        
+        #navbar {
+            background-color: white;
+            position: absolute;
+            top: 0;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            max-height: 275px;
+            border: none;
+            z-index: 1;
+            border-bottom: 2px solid;
+        }

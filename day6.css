@@ -1,0 +1,14 @@
+.header {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+td {
+    border: 2px solid black;
+    padding: 1px;
+}
+
+#main-table {
+    border: 2px solid black;
+    padding: 0%;
+}

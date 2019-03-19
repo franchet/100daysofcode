@@ -1,24 +1,100 @@
-figure {
-    background-color: white;
-    border-radius: .4%;
-    margin-left: 10%;
-    margin-right: 10%;
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+html, body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     text-align: center;
+    min-width: 260px;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: auto;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    margin: 10px;
+}
+
+blockquote {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+div {
+    display: block;
+}
+
+blockquote {
+    font-style: italic;
 }
 
 #main {
     background-color: #EEEEEE;
 }
 
-#image {}
+#main {
+    margin: 30px auto;
+    padding: 15px;
+    border: 0px solid;
+    border-radius: 5px;
+    background: #eee;
+}
+
+#img-div {
+    margin: -5px;
+    margin-top: 20px;
+    width: 100%;
+    border: 5px solid white;
+    background: white;
+}
 
 #img-caption {
     border-radius: .4%;
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
-}
-
-#img-footer-text {
-    text-align: left;
 }

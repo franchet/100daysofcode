@@ -1,11 +1,12 @@
 body {
-    background-color: #A9D7D1;
+    background-color: ##A9D7D1;
 }
 
-.row-tab {
-    text-align: center;
-}
-
-#form-outer {
+.container {
     background-color: #FAFAFA;
+    justify-content: center;
+}
+
+.row {
+    justify-content: center;
 }

@@ -1,9 +1,9 @@
 import pygame
 pygame.init()
 
-win = pygame.display.set_mode((500, 500))
+win = pygame.display.set_mode((500, 480))
 
-pygame.display.set_caption("First Game")
+pygame.display.set_caption("Goblin Game")
 
 walkRight = [pygame.image.load('Project_20_GoblinGame_R1.png'), pygame.image.load('Project_20_GoblinGame_R2.png'), pygame.image.load('Project_20_GoblinGame_R3.png'), pygame.image.load('Project_20_GoblinGame_R4.png'), pygame.image.load(
     'Project_20_GoblinGame_R5.png'), pygame.image.load('Project_20_GoblinGame_R6.png'), pygame.image.load('Project_20_GoblinGame_R7.png'), pygame.image.load('Project_20_GoblinGame_R8.png'), pygame.image.load('Project_20_GoblinGame_R9.png')]
@@ -12,9 +12,10 @@ walkLeft = [pygame.image.load('Project_20_GoblinGame_L1.png'), pygame.image.load
 bg = pygame.image.load('Project_20_GoblinGame_bg.jpg')
 char = pygame.image.load('Project_20_GoblinGame_standing.png')
 
+clock = pygame.time.Clock()
 
 x = 50
-y = 425
+y = 400
 width = 64
 height = 64
 vel = 5
@@ -29,14 +30,27 @@ walkCount = 0
 def redrawGameWindow():
     global walkCount
     win.blit(bg, (0, 0))
-    pygame.draw.rect(win, (255, 0, 0), (x, y, width, height))
+
+    if walkCount + 1 >= 27:
+        walkCount = 0
+
+    if left:
+        win.blit(walkLeft[walkCount//3], (x, y))
+        walkCount += 1
+    elif right:
+        win.blit(walkRight[walkCount//3], (x, y))
+        walkCount += 1
+    else:
+        win.blit(char, (x, y))
+
     pygame.display.update()
 
 
 # Main Loop
 run = True
 while run:
-    pygame.time.delay(100)
+    clock.tick(27)
+    pygame.time.delay(50)
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -46,13 +60,24 @@ while run:
 
     if keys[pygame.K_LEFT] and x > vel:
         x -= vel
+        left = True
+        right = False
 
-    if keys[pygame.K_RIGHT] and x < 500 - width - vel:
+    elif keys[pygame.K_RIGHT] and x < 500 - width - vel:
         x += vel
+        right = True
+        left = False
+    else:
+        right = False
+        left = False
+        walkCount = 0
 
     if not(isJump):
         if keys[pygame.K_SPACE]:
             isJump = True
+            right = False
+            left = False
+            walkCount = 0
     else:
         if jumpCount >= -10:
             neg = 1

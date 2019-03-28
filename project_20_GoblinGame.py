@@ -5,6 +5,14 @@ win = pygame.display.set_mode((500, 500))
 
 pygame.display.set_caption("First Game")
 
+walkRight = [pygame.image.load('Project_20_GoblinGame_R1.png'), pygame.image.load('Project_20_GoblinGame_R2.png'), pygame.image.load('Project_20_GoblinGame_R3.png'), pygame.image.load('Project_20_GoblinGame_R4.png'), pygame.image.load(
+    'Project_20_GoblinGame_R5.png'), pygame.image.load('Project_20_GoblinGame_R6.png'), pygame.image.load('Project_20_GoblinGame_R7.png'), pygame.image.load('Project_20_GoblinGame_R8.png'), pygame.image.load('Project_20_GoblinGame_R9.png')]
+walkLeft = [pygame.image.load('Project_20_GoblinGame_L1.png'), pygame.image.load('Project_20_GoblinGame_L2.png'), pygame.image.load('Project_20_GoblinGame_L3.png'), pygame.image.load('Project_20_GoblinGame_L4.png'), pygame.image.load(
+    'Project_20_GoblinGame_L5.png'), pygame.image.load('Project_20_GoblinGame_L6.png'), pygame.image.load('Project_20_GoblinGame_L7.png'), pygame.image.load('Project_20_GoblinGame_L8.png'), pygame.image.load('Project_20_GoblinGame_L9.png')]
+bg = pygame.image.load('Project_20_GoblinGame_bg.jpg')
+char = pygame.image.load('Project_20_GoblinGame_standing.png')
+
+
 x = 50
 y = 425
 width = 40
@@ -13,6 +21,9 @@ vel = 5
 
 isJump = False
 jumpCount = 10
+left = False
+right = False
+walkCount = 0
 
 
 run = True
@@ -32,12 +43,6 @@ while run:
         x += vel
 
     if not(isJump):
-        if keys[pygame.K_UP] and y > vel:
-            y -= vel
-
-        if keys[pygame.K_DOWN] and y < 500 - height - vel:
-            y += vel
-
         if keys[pygame.K_SPACE]:
             isJump = True
     else:

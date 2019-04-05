@@ -1,12 +1,25 @@
 body {
-    background-color: ##A9D7D1;
+    background-color: #A9D7D1;
 }
 
 .container {
+    display: flex;
     background-color: #FAFAFA;
     justify-content: center;
 }
 
-.row {
-    justify-content: center;
+.outer-container {
+    width: 75%;
+    height: 95%;
+}
+
+#form-outer {}
+
+#description {
+    padding-top: 30px;
+}
+
+button {
+    margin-top: 25px;
+    margin-bottom: 20px;
 }

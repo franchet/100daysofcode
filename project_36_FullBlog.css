@@ -1,0 +1,30 @@
+:root {
+    --yellow: #ffc600;
+}
+
+html {
+    color: #444;
+    font-family: Cambria, Cochin, Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+p {
+    line-height: 1.8;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: black;
+    text-decoration: underline wavy var(--yellow);
+}
+
+h1,
+h2 {
+    font-size: 80px;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0;
+}

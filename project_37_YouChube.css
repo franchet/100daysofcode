@@ -1,0 +1,148 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: white;
+}
+
+i {
+    color: #606060;
+}
+
+hr {
+    color: #E6E6E6;
+    font-weight: 100;
+}
+
+a {
+    color: #0A0A0A;
+    text-decoration: none;
+}
+
+iframe {
+    height: 130px;
+    width: 230px;
+}
+
+h4 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+h5 {
+    margin-bottom: 10px;
+}
+
+h6 {}
+
+.youtube-text {
+    font-family: Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #0a0a0a;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    grid-template-rows: 1fr 11fr;
+}
+
+.header {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+
+.logo {
+    background-color: ;
+}
+
+.logo i {
+    color: red;
+}
+
+.fa-bars {
+    margin-right: 15px;
+}
+
+.search input {
+    height: 25px;
+    width: 600px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin-left: 20px;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+}
+
+.menu {
+    grid-column: 1 / 2;
+    grid-row: 2;
+    background-color: #FAFAFA;
+    justify-content: center;
+}
+
+.top .middle .bottom {
+    font-family: Roboto, Noto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #0a0a0a;
+}
+
+.top {
+    margin-bottom: 15px;
+}
+
+.middle {
+    margin-bottom: 15px;
+}
+
+.bottom {
+    margin-bottom: 15px;
+}
+
+.menu div {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.menu div i {
+    margin-right: 25px;
+}
+
+.content {
+    background-color: #FAFAFA;
+    grid-column: 2 / 3;
+    grid-row-start: 2;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 2fr 2fr;
+    justify-content: center;
+    align-content: space-between;
+    margin-top: 30px;
+    grid-gap: none;
+}
+
+.content div {
+    margin-bottom: 30px;
+}

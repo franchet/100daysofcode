@@ -1,0 +1,61 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {}
+
+form {
+    grid-area: "sign-up"
+}
+
+.logo {
+    font-family: 'Ubuntu', sans-serif;
+    grid-area: "logo";
+    padding-left: 140px;
+}
+
+.facelook {
+    font-size: 40px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.white-text {
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.header {
+    background-color: #3A5998;
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "logo""sign-up"
+}
+
+.forgot-account {
+    grid-area: "sign-up";
+}
+
+.content {
+    background-color: #EDF0F4;
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas: "";
+}
+
+.footer {
+    background-color: #FFFFFF;
+}
+
+.signup {
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows: ;
+}

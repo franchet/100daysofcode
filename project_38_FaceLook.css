@@ -9,7 +9,7 @@ form {
 
 button {
     font-size: 20px;
-    background-color: #6AA555;
+    background-color: #639A4E;
     color: #FFFFFF;
     border-radius: 3px;
     width: 8em;
@@ -80,6 +80,12 @@ i {
     margin-top: 25px;
 }
 
+.free {
+    font-size: 20px;
+    font-family: "Freight Sans, Helvetica, Arial, sans-serif";
+    font-style: normal;
+}
+
 .header {
     background-color: #3A5998;
     display: grid;
@@ -88,14 +94,22 @@ i {
     grid-template-areas: "logo""sign-up"
 }
 
+.description {}
+
 .description p {
-    margin-top: 40px
+    margin-top: 40px;
 }
 
 .connect {
     margin-top: 10px;
     margin-bottom: 15px;
-    font-size: 35px;
+}
+
+.details input {
+    height: 30px;
+    width: 180px;
+    border: 1px solid #BCC7D7;
+    border-radius: 3px;
 }
 
 .signup * {
@@ -118,10 +132,6 @@ i {
     margin-top: 20px;
 }
 
-.languages {
-    margin-top: 20px;
-}
-
 .footer hr {
     margin: 10px;
     width: 1000px;
@@ -135,13 +145,22 @@ i {
     align-content: center;
 }
 
-footer a {
+.footer a {
     margin-top: 5px;
+    color: #365899;
+}
+
+.languages {
+    margin-top: 20px;
+}
+
+.languages a {
+    margin-right: 10px;
+    color: #365899;
 }
 
 
 /*
-
 .signup {
     display: grid;
     grid-template-columns: repeat(1fr 1fr);

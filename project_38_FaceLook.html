@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
     <link rel="stylesheet" href="project_38_FaceLook.css">
 </head>
 
@@ -16,17 +16,18 @@
     <div class="container">
 
         <div class="header">
-            <span class="white-text logo">
+            <span class="white-text">
                 <p class="facelook">facelook</p>
             </span>
 
-            <form action="">
-                <span class="white-text">Email or phone</span> <input type="text" name="FirstName" value=""> <span class="white-text">Password</span>
+            <form class="header-login" action="">
+                <span class="white-text header-email">Email or phone</span> <input type="text" name="FirstName" value=""> <span class="white-text header-password">Password</span>
                 <input type="text" name="LastName" value="">
-                <input type="submit" value="Login">
+                <input class="login-button" type="submit" value="Log In">
+                <p class="forgot-account">Forgot account?</p>
             </form>
 
-            <p class="forgot-account">Forgot account?</p>
+
 
         </div>
 
@@ -34,7 +35,8 @@
         <div class="content">
             <div class="description">
                 <p>
-                    <i class="fas fa-images"></i> <span class="bold-text">Connect with friends and the world around you
+                    <i class="fas fa-images connect"></i> <span class="bold-text">Connect with friends and the
+                        world around you
                         on
                         Facebook.</span>
                 </p>
@@ -44,7 +46,7 @@
                 </p>
 
                 <p>
-                    <span class="bold-text">Share what's new</span> in your life on your Timeline.
+                    <span class="bold-text"><i class="fas fa-share-alt-square"></i>Share what's new</span> in your life on your Timeline.
                 </p>
 
                 <p>
@@ -53,20 +55,22 @@
             </div>
 
             <div class="signup">
-                <p>Sign Up It’s free and always will be.</p>
+                <p class="sign-up-text">Sign Up</p>
+                <p class="it's-free">It’s free and always will be.</p>
 
                 <form action="/action_page.php">
-                    First name: <input type="text" name="fname" value="First Name"><br> Last name: <input type="text" name="lname" value="Last Name"><br> Mobile or email
-                    <input type="text" name="fname" value="Mobile or Email"><br> Password <input type="text" name="fname" value="New Password"><br>
-                    <input type="submit" value="Submit">
+                    <input type="text" name="fname" value="First Name"><br> <input type="text" name="lname" value="Last Name"><br>
+                    <input type="text" name="fname" value="Mobile or Email"><br> <input type="text" name="fname" value="New Password"><br>
+
                 </form>
 
-                <p>Birthday</p>
+                <p class="birthday">Birthday</p>
 
-                <form action>
+                <form class="month" action>
                     <select id="">
                         <option value=''>--Select Month--</option>
-                        <option selected value='1'>Janaury</option>
+                        <option selected value='4'>April</option>
+                        <option value='1'>January</option>
                         <option value='2'>February</option>
                         <option value='3'>March</option>
                         <option value='4'>April</option>
@@ -80,9 +84,9 @@
                         <option value='12'>December</option>
                     </select>
 
-                    <select id="">
+                    <select class="year" id="">
                         <option value=''>--Select Year--</option>
-                        <option selected value='1'>1</option>
+                        <option selected value='29'>29</option>
                         <option value='2'>2</option>
                         <option value='3'>3</option>
                         <option value='4'>4</option>
@@ -116,9 +120,9 @@
                     </select>
 
 
-                    <select id="">
+                    <select class="day" id="">
                         <option value=''>--Select Day--</option>
-                        <option selected value='1905'>1905</option>
+                        <option selected value='2019'>2019</option>
                         <option value='1907'>1906</option>
                         <option value='1908'>1908</option>
                         <option value='1990'>1990</option>
@@ -164,19 +168,21 @@
                         <option value='2030'>2030</option>
                     </select> <br>
 
-                    <input type="radio" name="gender" value="male"> Male
-                    <input type="radio" name="gender" value="female"> Female
+                    <input class="male" type="radio" name="gender" value="male"> Male
+                    <input class="female" type="radio" name="gender" value="female"> Female
 
-                    <p>
-                        By clicking Sign Up, you agree to our Terms, Data Policy and Cookies Policy. You may receive SMS Notifications from us and can opt out any time.
+                    <p class="terms">
+                        By clicking Sign Up, you agree to our <span>Terms, Data Policy</span> <br> and <span>Cookies
+                            Policy.</span> You may receive SMS Notifications from us and can opt out any time.
                     </p>
+                    <div><button class="signup-button" type="button" onclick="alert('Hello world!')">Sign Up</button>
+                    </div>
 
-                    <button type="button" onclick="alert('Hello world!')">Click Me!</button>
+
 
                     <hr>
 
-                    <p>Create a Page for a celebrity, band or business</p>
-
+                    <p class="create-page">Create a Page for a celebrity, band or business</p>
                 </form>
 
 
@@ -185,14 +191,44 @@
         </div>
 
         <div class=" footer ">
-            <p>
+            <p class="languages">
                 <a href="# ">English (US)</a> <a href="# ">Français (France)</a> <a href="# ">Español</a> <a href="# ">Bahasa
                     Indonesia</a> <a href="# ">Italiano</a> <a href="# ">Deutsch</a> <a href="# ">Português
                     (Brasil)</a> <a href="# ">中文(简体)</a> <a href="# ">العربية</a> <a href="# ">हिन्दी</a> <a href="# ">日本語</a><i class="fas fa-plus"></i>
             </p>
             <hr>
-            <p>Sign Up Log In Messenger Facebook Lite Find Friends People Profiles Pages Page Categories Places Games Locations Marketplace Groups Instagram Local Fundraisers About Create Ad Create Page Developers Careers Privacy CookiesAd Choices Terms
-                Account Security Login Help Help Settings Activity Log
+            <p class="footer-ads">
+                <a href="">Sign Up</a>
+                <a href="">Log In</a>
+                <a href="">Messenger</a>
+                <a href="">Facebook Lite</a>
+                <a href="">Find Friends</a>
+                <a href="">People</a>
+                <a href="">Profiles</a>
+                <a href="">Pages</a>
+                <a href="">Page</a>
+                <a href="">Categories</a>
+                <a href="">Places</a>
+                <a href="">Games</a>
+                <a href="">Locations</a>
+                <a href="">Marketplace</a>
+                <a href="">Groups</a>
+                <a href="">Instagram</a>
+                <a href="">Local</a>
+                <a href="">Fundraisers</a>
+                <a href="">About</a>
+                <a href="">Create Ad</a>
+                <a href="">Create Page</a>
+                <a href="">Developers</a>
+                <a href="">Careers</a>
+                <a href="">Privacy</a>
+                <a href="">CookiesAd</a>
+                <a href="">Choices</a>
+                <a href="">Terms</a>
+                <a href="">Account</a>
+                <a href="">Security</a>
+                <a href="">Login Help</a>
+                <a href="">Help</a>
             </p>
         </div>
 

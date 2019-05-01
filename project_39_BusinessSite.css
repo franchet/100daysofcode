@@ -1,0 +1,36 @@
+* {}
+
+nav {
+    color: #ffffff;
+}
+
+ul {
+    color: #ffffff;
+}
+
+.first-section {
+    position: relative;
+}
+
+.image-text {
+    color: #000000;
+    text-shadow: 2px 2px #FF0000;
+    position: absolute;
+    z-index: 1;
+}
+
+.second-section {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-gap: 2rem;
+    justify-items: space-around;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.third-section {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-gap: ;
+    justify-items: center;
+}

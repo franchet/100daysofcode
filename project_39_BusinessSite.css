@@ -8,11 +8,20 @@ ul {
     color: #ffffff;
 }
 
+.card {
+    background-color: #F2F2F2;
+}
+
 .first-section {
     position: relative;
 }
 
-.image-text {
+.first-section img {
+    width: 100%;
+    height: 33rem;
+}
+
+.first-image-text {
     color: #000000;
     text-shadow: 2px 2px #FF0000;
     position: absolute;
@@ -33,4 +42,57 @@ ul {
     grid-template-columns: 6fr 6fr;
     grid-gap: ;
     justify-items: center;
+    margin-bottom: 3rem;
+}
+
+.fourth-section {
+    display: grid;
+    grid-template-columns: 12fr;
+    justify-items: center;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.fourth-section img {
+    height: 20rem;
+    width: 100%;
+}
+
+.fourth-image-text {
+    ;
+}
+
+.fifth-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3rem;
+    justify-items: space-around;
+    margin-bottom: 3rem;
+}
+
+.fifth-section .cards {
+    width: 15rem;
+}
+
+.sixth-section {
+    margin-bottom: 3rem;
+    ;
+}
+
+.seventh-section-container {
+    background-image: url(project_39_BusinessSite_pic_bg-3.jpg);
+    display: grid;
+    grid-template-columns: 3fr;
+    height: 30rem;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.seventh-section-container {
+    ;
+}
+
+.seventh-section-container form {
+    ;
 }

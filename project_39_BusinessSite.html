@@ -14,7 +14,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
                 <a class="nav-link" href="#">Homepage</a>
@@ -181,18 +181,38 @@
 
     <div class="container seventh-section-container">
         <div class="seventh-section">
-            <form>
-                <div class="form-row">
-                    <div class="col">
-                        <input type="text" class="form-control" placeholder="Name">
+
+            <div class="contact-form-div">
+                <h2 class="contact-form">Contact Form</h2>
+            </div>
+
+            <form class="">
+                <div class="form-col">
+                    <div class="text-area-div">
+                        <textarea rows="6" cols="80">Nunc diam leo, fringilla vulputate elit lobortis, consectetur vestibulum quam. Sed id felis ligula. In euismod libero at magna dapibus, in rutrum velit lacinia. Etiam a mi quis arcu varius condimentum</textarea>
                     </div>
-                    <div class="col">
-                        <input type="text" class="form-control" placeholder="Email">
+
+                    <div class="row">
+
+                        <div class="col">
+                            <div class="col col-md-12">
+                                <input type="text" class="form-control" placeholder="Name">
+                            </div>
+                            <div class="col col-md-12">
+                                <input type="text" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="col col-md-12">
+                                <input type="text" class="form-control" placeholder="Subject">
+                            </div>
+                        </div>
+
+                        <div class="text-area-div">
+                            <textarea rows="5" cols="40">Your message here....</textarea>
+                        </div>
                     </div>
-                    <div class="col">
-                        <input type="text" class="form-control" placeholder="Subject">
-                    </div>
-                    <div class=""><a href="#" class="btn btn-dark" style="width:8rem; height: 3rem;">Send</a></div>
+
+
+                    <div class="send-button-div"><a href="#" class="btn btn-dark send-button">Send</a></div>
                 </div>
             </form>
         </div>

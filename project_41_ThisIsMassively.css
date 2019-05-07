@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("project_41_ThisIsMassively_bg.jpg");
+}
+
+.container {
+    background: #ffffff;
+}
+
+.top-section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: grid;
+    grid-template-columns: 12fr;
+    justify-items: center;
+}
+
+.top-section h1 p {
+    color: #ffffff;
+}
+
+button {
+    background: ;
+}

@@ -3,12 +3,30 @@
     margin: 0;
 }
 
+
 body {
     background-image: url("project_41_ThisIsMassively_bg.jpg");
 }
 
-.container {
-    background: #ffffff;
+h3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+li a {
+    color: white;
+    list-style: none;
+}
+
+
+.pagination a {
+    color: black;
 }
 
 .top-section {
@@ -21,8 +39,80 @@ body {
 
 .top-section h1 p {
     color: #ffffff;
+
 }
+
+
+.container {
+    background: #ffffff;
+    display: grid;
+    grid-template-columns: 10fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    text-align: center;
+}
+
 
 button {
     background: ;
+    border: solid 2px black;
+    padding: .5rem .5rem;
+    font-weight: bold;
+    font-size: .7rem;
+    margin-bottom: 3rem;
+}
+
+
+.first-section img {
+    margin-bottom: 3rem;
+}
+
+
+.second-section {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-template-rows: 8fr;
+    grid-gap: 2rem;
+    margin: 5rem;
+    justify-items: center;
+    text-align: center;
+}
+
+
+
+.third-section {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-template-rows: 8fr;
+    grid-gap: 2rem;
+    margin: 5rem;
+    justify-items: center;
+    text-align: center;
+}
+
+
+
+.fourth-section {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-template-rows: 8fr;
+    grid-gap: 2rem;
+    margin: 5rem;
+    justify-items: center;
+    text-align: center;
+}
+
+.fifth-section {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-template-rows: 8fr;
+    grid-gap: 2rem;
+    margin: 5rem;
+    justify-items: center;
+    text-align: center;
+}
+
+
+.left-side .right-side {
+    border: solid 1px grey;
 }

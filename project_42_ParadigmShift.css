@@ -13,6 +13,15 @@ body {
     ;
 }
 
+img {
+    width: 700px;
+    height: 350px;
+}
+
+
+span {
+    font-weight: bold;
+}
 
 .girl-pic {
     width: 100%;
@@ -31,19 +40,44 @@ body {
     background-color: teal;
     text-align: center;
     display: grid;
-    grid-template-columns: ;
-    grid-template-rows: ;
+    justify-items: center;
 }
 
 
+.left * {
+    margin-top: ;
+    margin-bottom: ;
+}
 
 .right {
     display: grid;
     grid-template-columns: ;
     grid-template-rows: ;
+
 }
 
 
 .right p {
-    max-width: 25rem;
+    max-width: ;
+}
+
+
+.largest-text {
+    font-size: 60px;
+}
+
+
+
+.large-text {
+    font-size: 30px;
+}
+
+
+.medium-text {
+    font-size: 25px;
+}
+
+
+.small-text {
+    font-size: 15px;
 }

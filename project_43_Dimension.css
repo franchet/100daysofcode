@@ -5,7 +5,7 @@
 
 
 body {
-    background-image: url("project_42_Dimension_pic1.jpg")
+    background-image: url("")
 }
 
 
@@ -13,10 +13,53 @@ header {
     color: ;
 }
 
+hr {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
 nav ul {
     list-style: none;
 }
 
+
+.image {
+    width: 100%;
+}
+
+
 .content {
-    color: ;
+    position: relative;
+    display: grid;
+    place-items: center;
+    /*    
+    width: 100%;
+    height: auto;
+    background-color: aqua;*/
+}
+
+
+.text-div {
+    position: absolute;
+
+    /* 
+    top: 50%;
+    left: 50%;
+    right: ;
+    background-color: coral;
+    */
+}
+
+
+.buttons {
+    position: absolute;
+}
+
+.main-text {
+    font-size: 25px;
+}
+
+
+.sub-text {
+    font-size: 20px;
 }

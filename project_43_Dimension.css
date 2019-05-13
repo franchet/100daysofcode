@@ -14,9 +14,10 @@ header {
 }
 
 hr {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
+
 
 nav ul {
     list-style: none;
@@ -32,6 +33,7 @@ nav ul {
     position: relative;
     display: grid;
     place-items: center;
+
     /*    
     width: 100%;
     height: auto;
@@ -41,7 +43,7 @@ nav ul {
 
 .text-div {
     position: absolute;
-
+    justify-content: center;
     /* 
     top: 50%;
     left: 50%;
@@ -56,10 +58,19 @@ nav ul {
 }
 
 .main-text {
-    font-size: 25px;
+    font-size: 30px;
+    color: firebrick;
 }
 
 
 .sub-text {
     font-size: 20px;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    color: cornflowerblue;
+    background-color: cornflowerblue;
+    margin-right: 2rem;
 }

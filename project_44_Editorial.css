@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 3rem;
+}
+
+
+body {
+    background-color: #FFFFFF;
+}
+
+
+.section-one {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-template-rows: auto;
+}
+
+.section-one img {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.section-one .left {
+    display: grid;
+}
+
+
+.section-one .right {
+    display: grid;
+}
+
+hr {
+    width: 100%;
+    background-color: #E7746F;
+    margin-top: 3rem;
+}

@@ -1,0 +1,104 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body {
+    ;
+}
+
+
+.section-one {
+    background-color: #242943;
+    color: #ffffff;
+}
+
+.section-two {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    grid-template-rows: 8fr;
+}
+
+.section-two .left {
+    background-color: skyblue;
+}
+
+
+.section-two .right {
+    background-color: #8d82c4;
+}
+
+
+.section-three {
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    grid-template-rows: auto;
+}
+
+.section-three .left {
+    background-color: peachpuff;
+}
+
+
+.section-three .right {
+    background-color: goldenrod;
+}
+
+
+.section-four {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    grid-template-rows: auto;
+}
+
+
+.section-four .left {
+    background-color: plum;
+}
+
+
+.section-four .right {
+    background-color: greenyellow;
+}
+
+.section-five {
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    grid-template-rows: auto;
+}
+
+
+
+.section-five .left {
+    background-color: plum;
+}
+
+
+.section-five .right {
+    background-color: greenyellow;
+}
+
+.section-six {
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    grid-template-rows: auto;
+}
+
+
+.section-six .left {
+    background-color: plum;
+}
+
+
+.section-six .right {
+    background-color: greenyellow;
+}
+
+
+
+.footer {
+    background-color: blue;
+}
+

@@ -8,6 +8,10 @@ body {
     ;
 }
 
+img {
+    height: 45px;
+    width: 50px;
+}
 
 .section-one {
     background-color: #242943;
@@ -22,11 +26,13 @@ body {
 
 .section-two .left {
     background-color: skyblue;
+    background-image: url(/project_45_Forty_pic1.jpg)
 }
 
 
 .section-two .right {
     background-color: #8d82c4;
+    background-image: url(/project_45_Forty_pic2.jpg)
 }
 
 
@@ -38,11 +44,13 @@ body {
 
 .section-three .left {
     background-color: peachpuff;
+    background-image: url(/project_45_Forty_pic3.jpg)
 }
 
 
 .section-three .right {
     background-color: goldenrod;
+    background-image: url(/project_45_Forty_pic4.jpg)
 }
 
 
@@ -55,15 +63,18 @@ body {
 
 .section-four .left {
     background-color: plum;
+    background-image: url(/project_45_Forty_pic5.jpg)
 }
 
 
 .section-four .right {
     background-color: greenyellow;
+    background-image: url(/project_45_Forty_pic6.jpg)
 }
 
 .section-five {
-    background-color: blue;
+    background-color: #242943;
+    color: #ffffff;
     display: grid;
     grid-template-columns: 4fr 8fr;
     grid-template-rows: auto;
@@ -99,6 +110,6 @@ body {
 
 
 .footer {
-    background-color: blue;
+    background-color: #242943;
 }
 

@@ -1,0 +1,107 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.header {
+    display: grid;
+    justify-content: center;
+}
+
+body {
+    background: linear-gradient(112.54870336317788deg, rgba(1, 174, 239, 1) 6.140625%, rgba(232, 101, 100, 1) 95.51562499999999%);
+    position: relative;
+}
+
+.container {
+    background-color: #fff;
+}
+
+.main {
+    border-radius: 5px;
+}
+
+.navbar-nav {
+    background-color: #3C424D;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+}
+
+ul a {
+    color: #fff;
+}
+
+.first-section {
+    position: absolute;
+    top: 0%;
+    left: 5px;
+}
+
+.rocket-wrapper {
+    position: relative;
+}
+
+.rocker i {
+    height: 400px;
+    width: 400px;
+}
+
+.rocket {
+    position: absolute;
+    color: blue;
+    background-color: #fff;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.short {
+    width: 100px;
+    height: 2px;
+    background: linear-gradient(112.54870336317788deg, rgba(248, 198, 215, 1) 6.140625%, rgba(175, 233, 249, 1) 95.51562499999999%);
+}
+
+.long {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.image-wrapper {
+    ;
+}
+
+.iphone {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+}
+
+.bracket-div {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px salmon;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+.folder-div {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px salmon;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+.diamond-div {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px salmon;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}

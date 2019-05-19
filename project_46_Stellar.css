@@ -84,6 +84,7 @@ ul a {
     height: 200px;
     width: 200px;
     border-radius: 100px;
+    margin-bottom: 2rem;
 }
 
 .folder-div {
@@ -94,6 +95,7 @@ ul a {
     height: 200px;
     width: 200px;
     border-radius: 100px;
+    margin-bottom: 2rem;
 }
 
 .diamond-div {
@@ -104,4 +106,21 @@ ul a {
     height: 200px;
     width: 200px;
     border-radius: 100px;
+    margin-bottom: 2rem;
+}
+
+.last-section * {
+    margin-bottom: 5rem;
+}
+
+.colors {
+    margin-bottom: 2rem;
+}
+
+.consequat {
+    margin-bottom: 2rem;
+}
+
+.donec {
+    margin-bottom: 2rem;
 }

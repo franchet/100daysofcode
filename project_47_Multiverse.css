@@ -1,0 +1,24 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    ;
+}
+
+col {
+    position: relative;
+}
+
+p {
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    color: #ffffff;
+}
+
+img {
+    height: 20rem;
+    width: 100%;
+}

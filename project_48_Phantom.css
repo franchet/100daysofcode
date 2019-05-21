@@ -7,6 +7,41 @@ a {
     color: #000000;
 }
 
+form {
+    margin-bottom: 2rem;
+}
+
+input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 1rem;
+}
+
+textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+i {
+    border: 1px solid grey;
+    padding: .5rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+img {
+    height: 15rem;
+    width: 100%;
+    border-radius: 8px;
+}
+
+button {
+    padding: .5rem;
+    margin-top: 1rem;
+}
+
 .section-one {
     margin-top: 1.5rem;
 }
@@ -15,7 +50,30 @@ a {
     margin-bottom: 2rem;
 }
 
+.section-two {
+    color: ;
+}
+
+.section-three {
+    background: rgba(115, 127, 161, 0.5);
+    margin-bottom: 5rem;
+    border-radius: 8px;
+    padding: 3rem;
+}
+
+#name {
+    margin-right: 2rem;
+}
+
+div img {
+    position: relative;
+}
+
 img {
-    height: 15rem;
-    width: 100%;
+    position: absolute;
+}
+
+div p {
+    left: 50px;
+    bottom: 50px;
 }

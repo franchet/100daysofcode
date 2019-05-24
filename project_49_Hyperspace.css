@@ -79,3 +79,8 @@ input,
 label {
     display: block;
 }
+
+.section-seven {
+    background-color: purple;
+    height: 3rem;
+}

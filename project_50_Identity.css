@@ -4,8 +4,8 @@
 }
 
 body {
+    background: linear-gradient(112.54870336317788deg, rgba(248, 104, 92, 1) 6.140625%, rgba(25, 64, 169, 1) 95.51562499999999%);
     position: relative;
-    background-image: url("project_50_Identity_pic1.jpg");
     background-repeat: no-repeat;
     background-size: 100% 1200px;
     text-align: center;

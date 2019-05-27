@@ -14,9 +14,39 @@
 <body>
 
     <div class="row">
-        <div class="col-8">
-            <img src="project_51_Lens_pic1.jpg" alt="">
+        <div class="col-8 big-slide">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="project_51_Lens_pic1.jpg" alt="Pic 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="project_51_Lens_pic2.jpg" alt="Pic 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="project_51_Lens_pic3.jpg" alt="Pic 3">
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
         </div>
+
         <div class="col-4">
             <h1>Lens</h1>
             <p>Just another fine responsive site template by Franchet</p>
@@ -25,16 +55,6 @@
                 <i class="fab fa-instagram"></i>
                 <i class="fab fa-github"></i>
                 <i class="far fa-envelope"></i>
-
-
-                <div class="row no-gutters">
-                    <div class="col">
-                        <img src="project_51_Lens_pic2.jpg" alt="">
-                    </div>
-                    <div class="col">
-                        <img src="project_51_Lens_pic3.jpg" alt="">
-                    </div>
-                </div>
 
 
                 <div class="row no-gutters">
@@ -66,33 +86,19 @@
                     </div>
                 </div>
 
-
-                <div class="row no-gutters">
-                    <div class="col">
-                        <img src="project_51_Lens_pic10.jpg" alt="">
-                    </div>
-                    <div class="col">
-                        <img src="project_51_Lens_pic11.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="row no-gutters">
-                    <div class="col">
-                        <img src="project_51_Lens_pic12.jpg" alt="">
-                    </div>
-                    <div class="col">
-                        <img src="project_51_Lens_pic13.jpg" alt="">
-                    </div>
-                </div>
-
-
             </div>
         </div>
 
 
 
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     </div>
 </body>
 

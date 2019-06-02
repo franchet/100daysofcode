@@ -4,5 +4,24 @@
 }
 
 body {
-    background: ;
+    background-image: url(project_53_Eventually_pic1.jpg);
+    height: 100%;
+}
+
+h3 {
+    color: #ffffff;
+    margin-top: 6rem;
+}
+
+p {
+    color: #ffffff;
+}
+
+i {
+    color: #ffffff;
+    margin-right: 1.5rem;
+}
+
+.container-fluid {
+    margin-left: 1.5rem;
 }

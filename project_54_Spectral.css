@@ -1,0 +1,41 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    color: #ffffff;
+}
+
+body {
+    background-image: url('project_54_Spectral_pic1.jpg');
+    height: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 12fr;
+    grid-template-rows: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+h4,
+p,
+button {
+    justify-self: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 12fr;
+    grid-template-rows: 100%;
+    align-content: center;
+    align-content: right;
+}
+
+.heading {
+    align-items: center;
+}
+
+.short {
+    background-color: #ffffff;
+    justify-content: center;
+}

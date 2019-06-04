@@ -1,0 +1,45 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: url("project_55_Photon_bcg_pic1.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.section-one {
+    display: grid;
+    grid-template-columns: 12fr;
+    grid-template-rows: 42em;
+    justify-items: center;
+    align-items: center;
+}
+
+.section-one .welcome>* {
+    margin-bottom: 2rem;
+}
+
+.welcome {
+    display: grid;
+    grid-template-columns: 12fr;
+}
+
+.section-two {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-template-rows: auto;
+}
+
+button {
+    width: 8rem;
+    height: 3rem;
+}
+
+.section-three {
+    background-image: url("project_55_Photon_bcg_pic2.jpg");
+}

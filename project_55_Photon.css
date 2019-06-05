@@ -19,6 +19,11 @@ body {
     align-items: center;
 }
 
+.section-one button {
+    width: 8rem;
+    height: 3rem;
+}
+
 .section-one .welcome>* {
     margin-bottom: 2rem;
 }
@@ -26,6 +31,9 @@ body {
 .welcome {
     display: grid;
     grid-template-columns: 12fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
 }
 
 .section-two {
@@ -35,11 +43,131 @@ body {
     grid-template-rows: auto;
 }
 
-button {
-    width: 8rem;
-    height: 3rem;
+.section-two .left {
+    display: grid;
+    grid-template-columns: 12fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.section-two .right img {
+    width: 80%;
+    height: 20em;
+    border-radius: 3em;
+    margin: 3rem;
 }
 
 .section-three {
     background-image: url("project_55_Photon_bcg_pic2.jpg");
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-template-rows: auto;
+}
+
+.section-three .left {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows: 3fr;
+    justify-items: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.section-three .right {
+    margin-top: 3rem;
+}
+
+.section-three .material-icons {
+    width: 10rem;
+    height: 10rem;
+}
+
+.section-four {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 12fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.section-four .text {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 12fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.section-four .card {
+    border: none;
+}
+
+.section-four .card-content {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: auto;
+    grid-gap: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.section-four .content .left-card {
+    width: 10rem;
+    height: 10rem;
+    margin-left: 1.5rem;
+    display: grid;
+    grid-template-columns: 12fr;
+    grid-template-rows: auto;
+    justify-items: center;
+}
+
+.section-four .content .middle-card {
+    width: 10rem;
+    height: 10rem;
+    display: grid;
+    grid-template-columns: 12fr;
+    grid-template-rows: auto;
+    justify-items: center;
+}
+
+.section-four .content .right-card {
+    width: 10rem;
+    height: 10rem;
+    margin-right: 1.5rem;
+    display: grid;
+    grid-template-columns: 12fr;
+    grid-template-rows: auto;
+    justify-items: center;
+}
+
+.section-five {
+    background: linear-gradient(112.54870336317788deg, rgba(248, 198, 215, 1) 6.140625%, rgba(175, 233, 249, 1) 95.51562499999999%);
+    display: grid;
+    grid-template-columns: 12fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.section-five .content {
+    margin-bottom: 2rem;
+}
+
+.section-five .content * {
+    margin-top: 2rem;
+}
+
+.section-six {
+    background: linear-gradient(112.54870336317788deg, rgba(98, 185, 183, 1) 6.140625%, rgba(236, 246, 237, 1) 95.51562499999999%);
+    display: grid;
+    grid-template-columns: 12fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
 }
